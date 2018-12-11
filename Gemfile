@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :development_extras do
+  gem 'rake', '<11.0.1'
   gem 'rubocop', '= 0.21.0'
   gem 'reek', '= 1.3.7'
   gem 'test-kitchen', '~> 1.2'
