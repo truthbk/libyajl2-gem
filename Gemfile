@@ -10,6 +10,7 @@ group :development_extras do
   gem 'kitchen-digitalocean'
   gem 'kitchen-ec2'
   gem 'kitchen-vagrant'
+  gem "ffi", "~> 1.9.0"
 end
 
 platforms :rbx do
